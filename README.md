@@ -26,7 +26,10 @@
 ## 사용 방법
 
 1. `.env` 파일에 필요한 환경 변수를 설정합니다.
-2. `src/main.py` 파일을 실행합니다:
+   ```
+   OPENSEARCH_URL=https://XXX.ap-northeast-1.aoss.amazonaws.com
+   ```
+3. `src/main.py` 파일을 실행합니다:
    ```
    python src/main.py
    ```
