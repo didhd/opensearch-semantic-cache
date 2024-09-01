@@ -34,8 +34,6 @@ aoss_auth = RequestsAWSV4SignerAuth(
     service="aoss",
 )
 
-logger = logging.getLogger(__name__)
-
 # OpenSearchSemanticCache 초기화
 bedrock_embeddings = BedrockEmbeddings(
     client=bedrock_runtime, model_id="cohere.embed-multilingual-v3"
