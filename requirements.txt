@@ -1,5 +1,5 @@
 langchain
-langchain-community
+langchain-community==0.2.15
 langchain-aws
 opensearch-py
 boto3
